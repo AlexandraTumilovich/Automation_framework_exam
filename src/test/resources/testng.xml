@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Acceptance suite" >
+        <listeners>
+            <listener class-name="by.stormnet.core.common.AnnotationTransformer"/>
+        </listeners>
+    <test verbose="2" name="Search tests">
+        <classes>
+            <class name="project.by.stormnet.functional.tests.ElemaSearchTest"/>
+            <class name="project.by.stormnet.functional.tests.ElemaSearchNegativeTest"/>
+            <class name="project.by.stormnet.functional.tests.ElemaItemTest"/>
+            <class name="project.by.stormnet.functional.tests.ElemaBlogTest"/>
+            <class name="project.by.stormnet.functional.tests.ElemaCatalogTest"/>
+            <class name="project.by.stormnet.functional.tests.ElemaCollectionsTest"/>
+            <class name="project.by.stormnet.functional.tests.ElemaLookbookTest"/>
+            <class name="project.by.stormnet.functional.tests.ElemaNewsTest"/>
+            <class name="project.by.stormnet.functional.tests.ElemaLoginTest"/>
+        </classes>
+    </test>
+</suite>
