@@ -49,7 +49,7 @@ public class ElemaItemTest {
 
     @Test(priority = 15)
     public void addItemToCart() {
-        String item1 = "ПАЛЬТО ЖЕНСКОЕ ДЕМИСЕЗОННОЕ 1-9994-1";
+        String item1 = "БРЮКИ ЖЕНСКИЕ 3К-10688-1";
         Assert.assertTrue(elemaHomeHelper.search(item1).getElemaItem().addItemToCart(), "Item is not added to cart.");
     }
 
